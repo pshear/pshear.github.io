@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(251, 168, 187);
+    padding: 20px;
+    width: auto;
+}
+#recipe-title{
+    font-size: 25px;
+    color: white;
+}
+#recipe-image{
+    width: auto;
+    height: auto;
+    position: relative;
+}
+#ingredients{
+    color: rgb(166, 6, 78);
+    font-size: 20px;
+}
+#instructions{
+    color: rgb(255, 0, 89);
+    font-size: 20px;
+}
+span{
+    font-weight: bold;
+}
+.ihead{
+    color: rgb(166, 6, 78);
+    font-size: 25px;
+}
+.head{
+    font-size: 25px;
+    color:rgb(255, 0, 89)
+}
+
+.history{
+    font-size: 25px;
+    color:rgb(177, 20, 20);
+}
+.history1{
+    font-size: 20px;
+    color:rgb(177, 20, 20);
+    margin-top: 20px;
+}
+.hi{
+    font-size: 20px;
+    color: rgb(177, 20, 20);
+
+}
+.tips{
+    font-size: 20px;
+    background-color: rgb(247, 25, 66);
+    color: white;
+
+
+}
+.tips1{
+    font-size: 25px;
+    color: white;
+    
+}
+
+
+.video{
+    font-size: 25px;
+    color:rgb(177, 23, 197);
+}
+.references{
+    color: white;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    color: white; 
+    background-color: rgb(247, 25, 66)
+}
+header {
+    color: white;
+    background-color:rgb(247, 25, 66);
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,167 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://img.freepik.com/free-vector/watercolor-winter-season-celebration-background_23-2149872800.jpg?semt=ais_hybrid");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tree {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.layer {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 70px solid limegreen;
+    position: relative;
+}
+
+.top {
+    position: relative;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 140px solid limegreen;
+  
+}
+
+.middle {
+    position: relative;
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+    border-bottom: 180px solid limegreen;
+    margin-top: -40px;
+    position: relative;
+  
+}
+
+.bottom {
+    position: relative;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 220px solid limegreen;
+    margin-top: -40px;
+}
+
+
+.trunk {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: brown;
+    margin-top: -1px;
+    transform: rotate(180deg);
+}
+
+.star {
+  position: absolute;
+  width: 150px;  
+  top: -50px;
+  aspect-ratio: 1;
+  background: #F8CA00;
+  clip-path: polygon(50% 0,
+    calc(50%*(1 + sin(.4turn))) calc(50%*(1 - cos(.4turn))),
+    calc(50%*(1 - sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+    calc(50%*(1 + sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+    calc(50%*(1 - sin(.4turn))) calc(50%*(1 - cos(.4turn))) 
+  ); 
+}
+
+
+.ornament {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 95%;
+}
+
+
+.ornament:nth-child(1) {
+  top:30px;
+  left: 20px;
+  transform: translateX(-50%);
+}
+
+.ornament:nth-child(2) {
+  top: 90px;
+  left: 40px;
+  transform: translateX(-50%);
+}
+
+.ornament:nth-child(3) {
+  top: 90px;
+  right: 50px;
+  transform: translateX(-50%);
+}
+
+.ornament:nth-child(4) {
+  top: 40px;
+  left: -20px;
+  transform: translateX(-50%);
+}
+
+.ornament:nth-child(5) {
+  top:100px;
+  left: 60%;
+  transform: translateX(-50%);
+}
+.ornament:nth-child(6) {
+  top:130px;
+  left: 50px;
+  transform: translateX(-50%);
+}
+.ornament:nth-child(7) {
+  top:130px;
+  right: 40px;
+  transform: translateX(-50%);
+}
+.ornament:nth-child(8) {
+  top:100px;
+  left: 60%;
+  transform: translateX(-50%);
+}
+.ornament:nth-child(9) {
+  top:100px;
+  left: 60%;
+  transform: translateX(-50%);
+}
+.ornament:nth-child(10) {
+  top:100px;
+  left: 60%;
+  transform: translateX(-50%);
+}
+.ornament:nth-child(11) {
+  top:120px;
+  left: 60%;
+  transform: translateX(-50%);
+}
+.ornament:nth-child(12) {
+  top:120px;
+  left: 60%;
+  transform: translateX(-50%);
+}
+.ornament:nth-child(13) {
+  top:120px;
+  left: 60%;
+  transform: translateX(-50%);
+}
+.mountains-of-christmas-bold {
+  position: absolute;
+  top: 670px;
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 0px;
+  font-style: normal;
+  font-size: 70px;
+  color: red;
+}
+

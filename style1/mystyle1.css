@@ -1,0 +1,33 @@
+body{
+    background-color: tan;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    margin: 10px;
+    border: 3px solid yellow;
+}
+video{
+    padding: 10px;
+    padding-top: 1px;
+    padding-bottom: 40px;
+    border: 3px solid yellow;
+}
+.col-md-12{
+    background-color: lightgoldenrodyellow;
+}
+.col-md-8{
+    background-color: rgb(255, 242, 129);
+}
+.col-md-4{
+    background-color: bisque;
+}
+
+.tips{
+    background-color: rgb(255, 255, 197)
+}
+.video{
+    background-color: white;
+}
+.col-md-6{
+    background-color: rgb(246, 246, 151);
+}

@@ -1,0 +1,65 @@
+
+  body{
+    background-color:antiquewhite;
+    font-family:'Times New Roman', Times, serif;
+  }
+  h4{
+    color: rgb(244, 75, 103);
+    font-size: 30px;
+  }
+ footer{
+  background-color: rgb(244, 75, 103);
+  padding: 15px;
+  font-size: 10px;
+ }
+ nav{
+  position:fixed;
+ }
+ h3{
+  font-size:40px;
+  color: rgb(244, 75, 103);
+ }
+ .footer{
+  font-size: large;
+  color:white;;
+ }
+ .gymnastics{
+  margin-left: 3px;
+ }
+.cheer{
+  margin-left: 10px;
+}
+.school{
+  margin-right: 20px;
+}
+p{
+  font-size: 20px;
+}
+.paragraph{
+  border: 10px solid whitesmoke;
+}
+.intro{
+  border: 10px solid whitesmoke;
+}
+.card{
+  width: 300px;
+  height:500px;
+}
+nav{
+  font-size: 20px;
+  color: white;
+}
+
+.boo{
+  color: rgb(244, 75, 103);
+}
+img{
+  border: 3px solid rgb(244, 75, 103);
+}
+.navbar{
+  background-color: rgb(244, 75, 103);
+}
+.nav-link{
+  color: white;
+}
+
